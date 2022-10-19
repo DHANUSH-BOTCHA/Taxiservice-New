@@ -1,0 +1,97 @@
+{
+  "posts": [],
+  "signupUsers": [
+    {
+      "fullname": "Dhanush",
+      "mobile": 7389470666,
+      "email": "dhanushbvs@gmail.com",
+      "password": "asdf1234",
+      "address": "Raipur",
+      "id": 1
+    },
+    {
+      "fullname": "Neehal Raj",
+      "mobile": 987667890,
+      "email": "neehal12@gmail.com",
+      "password": "neehal123",
+      "address": "Delhi India",
+      "id": 2
+    },
+    {
+      "fullname": "Harsh",
+      "mobile": 7654893023,
+      "email": "harsh123@gmail.com",
+      "password": "harsh098",
+      "address": "Raipur india",
+      "id": 3
+    },
+    {
+      "fullname": "Aditya Prakash",
+      "mobile": 4567890321,
+      "email": "aditya@gmail.com",
+      "password": "aditya123",
+      "address": "Banglore, India",
+      "id": 4
+    },
+    {
+      "fullname": "Pranjal Kumar",
+      "mobile": 9810475367,
+      "email": "pranjal@gmail.com",
+      "password": "pranjal123",
+      "address": "Delhi India",
+      "id": 5
+    },
+    {
+      "fullname": "Vasav",
+      "mobile": 9988776544,
+      "email": "vasav@gmail.com",
+      "password": "vasav123",
+      "address": "Banglore India",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cabs": [
+    {
+      "cabname": "XUV 500",
+      "cabloc": "NIT RAIPUR",
+      "cabdes": "Railway Station",
+      "src": "https://images.hindustantimes.com/auto/img/2021/11/13/1600x900/Mahindra-XUV500-Exterior-HT_Auto_1588073744826_1588073745025_1636778427928.jpg",
+      "price": 500,
+      "id": 1,
+      "carno": "CG 04 NG 2000",
+      "carcom": "Mahindra(2020 Model)",
+      "carty": "Rover(8 Seater)",
+      "driver": "Mr. Deelip Sahu",
+      "driverno": 6789054321
+    },
+    {
+      "cabname": "XLYO",
+      "cabloc": "NIT RAIPUR",
+      "cabdes": "Airport",
+      "src": "https://cdn.autoportal.com/img/new-cars-gallery/mahindra/xylo/exterior/mahindra-xylo-d56fee5.jpg",
+      "price": 700,
+      "id": 2,
+      "carno": "CG 04 AB 1998",
+      "carcom": "Mahindra(2018 Model)",
+      "carty": "Rover(7 Seater)",
+      "driver": "Mr. Varun Kumar",
+      "driverno": 8907654212
+    },
+    {
+      "cabname": "Swift Dezire",
+      "cabloc": "Railway Station",
+      "cabdes": "Motibagh",
+      "src": "https://financialexpresswpcontent.s3.amazonaws.com/uploads/2016/10/PS-39.jpg",
+      "price": 450,
+      "id": 3,
+      "carno": "CG 04 AB 0970",
+      "carcom": "Maruti Suzuki (2018 Model)",
+      "carty": "Sedan(4 Seater)",
+      "driver": "Mr.Sunil Kumar Singh",
+      "driverno": 1234567890
+    }
+  ]
+}

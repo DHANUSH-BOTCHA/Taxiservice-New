@@ -1,0 +1,36 @@
+<ul>
+  <div class="container">
+    <div class="row text-center h-100">
+      <ng-container *ngFor="let cabs of cabs">
+        <div class="col-md-4 h-100">
+          <section class="p-5 h-100">
+            <div class="card text-white bg-dark mb-3 h-100">
+              <div class="bg-image hover-overlay h-100">
+                <li class="cablist h-100">
+                  <img
+                    [src]="cabs.src"
+                    [alt]="cabs.cabname"
+                    width="100"
+                    height="100"
+                    class="rounded-circle"
+                  />
+                  <p class="title">{{ cabs.cabname }}</p>
+                  <p>
+                    Is available from {{ cabs.cabloc }} to {{ cabs.cabdes }}.
+                  </p>
+                  <p class="currency">{{ cabs.price | currency: "INR" }} Rs.</p>
+                  <button
+                    class="btn btn-dark text-warning p-2 mx-2"
+                    routerLink="/ride/{{ cabs.id }}"
+                  >
+                    Book Now
+                  </button>
+                </li>
+              </div>
+            </div>
+          </section>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</ul>

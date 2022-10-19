@@ -1,0 +1,26 @@
+carno: string;
+  carcom: string;
+  carty: string;
+  driver: string;
+  driverno: number;
+
+
+  carno: 'CG 04 NS 2343',
+      carcom: 'Mahindra (2018 Model)',
+      carty:'Rover (7 Seater)',
+      driver:'Mr. Varun Kumar',
+      driverno: 0987654321,
+
+
+
+       carno: 'CG 05 CD 7649',
+      carcom: 'Mahindra (2019 Model)',
+      carty:'Rover (7 Seater)',
+      driver:'Mr. Deelip Sahu',
+      driverno: 1234098765,
+
+      carno: 'CG 04 AB 0970',
+      carcom: 'Maruti Suzuki (2018 Model)',
+      carty:'Sedan(4 Seater)',
+      driver:'Mr.Sunil Kumar Singh',
+      driverno: 1234567890,

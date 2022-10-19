@@ -1,0 +1,56 @@
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card bg-warning">
+                <div class="text-center">
+                    <h1 style="font-family:courier ;"> <b>SIGN UP</b> </h1>
+                    <h6 style="font-family:courier ;"> <b>Register Yourself !!</b>  </h6>
+                </div>
+                <form>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="font-family:courier ;"><b>Full Name</b></label>
+                            <input formControlName="fullname" type="text" class="form-control" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="font-family:courier ;"> <b>Mobile Number</b> </label>
+                            <input formControlName="mobile" type="number" class="form-control" >
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label" style="font-family:courier ;"> <b>Email address</b> </label>
+                          <input formControlName="email" placeholder="abc@gmail.com" type="email" class="form-control" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text" style="font-family:courier ;">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label" style="font-family:courier ;"> <b>Password</b> </label>
+                          <input formControlName="password" type="password" class="form-control" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="font-family:courier ;"> <b>Address</b> </label>
+                            <input formControlName="address" type="text" class="form-control" >
+                          </div>
+                        <button type="submit" class="btn btn-dark mb-2" style="font-family:courier ;"> <b>Sign Up</b> </button>
+                        <button type="submit" class="btn btn-dark mb-2 mx-2" routerLink="/opening" style="font-family:courier ;"> <b>Back</b> </button>
+                      </form>
+                      <a style="color:black; margin: top 10px;" routerLink="/login" style="font-family:courier ;"> <b>Already registered ? Click to Login..!!</b> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,58 @@
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts 
+<link
+  href="https://fonts.googleapis.com/css?family=Vesper Libre"
+  rel="stylesheet"
+/>
+-->
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<nav class="navbar navbar-light">
+  <div class="container-fluid">
+    <h1 style="font-family: 'Times New Roman', Times, serif; color: white">
+      <b>TAXI SERVICE</b>
+    </h1>
+    <div class="d-flex">
+      <button
+        class="btn btn-dark text-warning mx-2"
+        routerLink="/profile"
+        style="font-family: courier"
+      >
+        My Profile
+      </button>
+      <button
+        class="btn btn-dark text-warning"
+        routerLink="/login"
+        style="font-family: courier"
+      >
+        LOGOUT
+      </button>
+    </div>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input
+        class="form-control mr-sm-2"
+        type="search"
+        placeholder="Enter Zip Code to check"
+        aria-label="Search"
+      />
+      <button
+        class="btn btn-dark text-warning"
+        type="submit"
+        style="font-family: courier; color: white"
+      >
+        SEARCH
+      </button>
+    </form> -->
+  </div>
+</nav>
+<div>
+  <h1 style="color: white; padding: 16px">Hi {{ user.fullname }}</h1>
+</div>
+<app-cabs></app-cabs>
